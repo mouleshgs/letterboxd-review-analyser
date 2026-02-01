@@ -1,0 +1,41 @@
+movie_name,reviewer,rating,review_text,word_count,date,sentiment_score,sentiment_class
+Gone Girl,clara_horror,★★,watchable film with some notable scenes but overall inconsistent.,9,2024-05-01,0.0,neutral
+Gone Girl,mona_streaming,★,could not stand watching this. turned it off halfway.,9,2024-03-11,0.0,neutral
+Gone Girl,julia_viewer,★★★★,highly engaging from start to finish. would definitely watch again.,10,2024-10-10,0.659,positive
+Gone Girl,iris_experimental,★★★★,had potential and delivered reasonably well in most areas.,9,2024-11-07,0.2732,positive
+Gone Girl,paul_story,★★★★,incredible storytelling and outstanding performances throughout. highly recommended!,8,2024-04-16,0.7495,positive
+Gone Girl,charlie_fan,★★★★,good movie with solid performances and decent storyline. worth watching.,10,2024-03-03,0.6597,positive
+Gone Girl,henry_modern,★,absolutely awful. one of the worst films i have ever seen.,11,2024-10-06,-0.8122,negative
+Gone Girl,yara_adventure,★,really bad film. poorly paced and lacked any real substance or meaning.,12,2024-01-25,-0.5849,negative
+Gone Girl,diana_lover,★★,waste of time. poor plot and unconvincing characters made it hard to enjoy.,13,2024-04-04,-0.4767,negative
+Gone Girl,amy_romance,★★★,pretty entertaining. not groundbreaking but worth your time.,8,2024-03-27,0.2619,positive
+Gone Girl,victor_dramatic,★★★★★,best film ive seen in a long time. absolutely fantastic.,10,2024-10-22,0.8439,positive
+Gone Girl,alice_film,★★★,it was okay. some parts were really good but others felt slow.,12,2024-01-01,0.3708,positive
+Gone Girl,fiona_buff,★★★,watchable film with some notable scenes but overall inconsistent.,9,2024-06-06,0.0,neutral
+Gone Girl,wendy_comedy,★★★★,highly engaging from start to finish. would definitely watch again.,10,2024-11-23,0.659,positive
+Gone Girl,oscar_visual,★★★,good movie with solid performances and decent storyline. worth watching.,10,2024-03-15,0.6597,positive
+Gone Girl,sam_production,★★★★,excellent film with compelling narrative and great character development.,9,2024-07-19,0.8658,positive
+Gone Girl,frank_blockbuster,★★★,interesting concept but could have been executed better.,8,2024-08-04,0.6908,positive
+Gone Girl,kevin_pro,★★★★★,wellcrafted with excellent acting and a captivating story.,8,2024-11-11,0.5719,positive
+Gone Girl,nancy_screen,★★★,average film. not bad but nothing particularly special or memorable either.,11,2024-02-14,-0.3154,negative
+Gone Girl,jack_documentary,★★★★★,excellent film with compelling narrative and great character development.,9,2024-12-08,0.8658,positive
+Gone Girl,emma_indie,★★,mixed feelings. good ideas but poor execution in several parts.,10,2024-07-03,-0.4939,negative
+Gone Girl,bob_critic,★★★★★,simply wonderful! loved every minute of it.,7,2024-02-02,0.8356,positive
+Gone Girl,hannah_enthusiast,★★★★,stunning cinematography and brilliant direction. a mustwatch!,7,2024-08-08,0.7712,positive
+Gone Girl,evan_watcher,★★★,good movie with solid performances and decent storyline. worth watching.,10,2024-05-05,0.6597,positive
+Gone Girl,mike_cinema,★★★★,amazing visual effects combined with perfect storytelling.,7,2024-01-13,0.8176,positive
+Gone Girl,liam_episode,★★★★,stunning cinematography and brilliant direction. a mustwatch!,7,2024-02-10,0.7712,positive
+Gone Girl,laura_movie,★★★★,best film ive seen in a long time. absolutely fantastic.,10,2024-12-12,0.8439,positive
+Gone Girl,tina_award,★★★★,stunning cinematography and brilliant direction. a mustwatch!,7,2024-08-20,0.7712,positive
+Gone Girl,quinn_direction,★★,terrible execution of an already weak concept.,7,2024-05-17,-0.7184,negative
+Gone Girl,kate_series,★,disappointed by this one. started strong but lost momentum halfway through.,11,2024-01-09,-0.431,negative
+Gone Girl,george_geek,★★★★★,amazing visual effects combined with perfect storytelling.,7,2024-07-07,0.8176,positive
+Gone Girl,uriel_artistic,★★★,watchable film with some notable scenes but overall inconsistent.,9,2024-09-21,0.0,neutral
+Gone Girl,xavier_thriller,★,could not stand watching this. turned it off halfway.,9,2024-12-24,0.0,neutral
+Gone Girl,david_animation,★,deeply flawed in every way. do not recommend to anyone.,10,2024-06-02,-0.2755,negative
+Gone Girl,rachel_actor,★★★,not perfect but entertaining enough for a casual watch.,9,2024-06-18,-0.4419,negative
+Gone Girl,zack_scifi,★★★★,this film exceeded my expectations. absolutely phenomenal in every way.,10,2024-02-26,0.0,neutral
+Gone Girl,gina_classic,★★★★,really enjoyed this. great entertainment value and emotional depth.,9,2024-09-05,0.9392,positive
+Gone Girl,brian_mystery,★★★★,great film with excellent pacing and interesting plot twists.,9,2024-04-28,0.8885,positive
+Gone Girl,noah_digital,★,absolutely awful. one of the worst films i have ever seen.,11,2024-04-12,-0.8122,negative
+Gone Girl,ivan_admirer,★★★,mixed feelings. good ideas but poor execution in several parts.,10,2024-09-09,-0.4939,negative
