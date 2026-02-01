@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letterboxd Review Analytics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1>🎬 Letterboxd Review Analytics</h1>
+                <p>Analyze movie reviews and sentiment at a glance</p>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <section class="input-section">
+                <div class="input-container">
+                    <h2>Search for a Movie</h2>
+                    <p class="subtitle">Enter a movie name to analyze its Letterboxd reviews</p>
+                    
+                    <form id="searchForm" class="search-form">
+                        <div class="form-group">
+                            <label for="movieName">Movie Name:</label>
+                            <input 
+                                type="text" 
+                                id="movieName" 
+                                name="movieName" 
+                                placeholder="e.g., The Shawshank Redemption"
+                                required
+                            >
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" id="analyzeBtn">
+                            <span class="btn-text">Analyze Reviews</span>
+                            <span class="btn-loader" id="btnLoader" style="display: none;">
+                                <span class="spinner"></span>
+                            </span>
+                        </button>
+                    </form>
+
+                    <!-- Error Message -->
+                    <div id="errorMessage" class="error-message" style="display: none;"></div>
+                </div>
+            </section>
+
+            <!-- Features Section -->
+            <section class="features-section">
+                <h2>What We Do</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Scrape Reviews</h3>
+                        <p>Automatically extract reviews from Letterboxd</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧹</div>
+                        <h3>Clean Data</h3>
+                        <p>Remove noise and normalize review text</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💭</div>
+                        <h3>Sentiment Analysis</h3>
+                        <p>Analyze sentiment using advanced NLP</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Visualize Results</h3>
+                        <p>View insights with interactive charts</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Info Section -->
+            <section class="info-section">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <h3>Enter Movie Name</h3>
+                        <p>Type the name of any movie you want to analyze</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <h3>Scrape Reviews</h3>
+                        <p>We fetch reviews and ratings from Letterboxd</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <h3>Process Data</h3>
+                        <p>Clean and preprocess the review text</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <h3>Analyze Sentiment</h3>
+                        <p>Calculate sentiment scores for each review</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">5</div>
+                        <h3>View Results</h3>
+                        <p>See the analysis results and visualizations</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Letterboxd Review Analytics | Powered by Flask, NLTK & Pandas</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
